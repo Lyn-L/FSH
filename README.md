@@ -8,7 +8,7 @@ Contact : lynnliu.xmu@gmail.com  <br />
 Unfortunately, the original code cannot be shared, due to the Tencent Youtu Lab's IP policy.  <br /> 
 Instead, another MATLAB implementation of OEH has been released, which details are similar to the original version, but it would be still useful and gives similar results.
 
-This package contains cleaned up codes for the AAAI paper, including:  <br />
+This package contains cleaned up codes for the CVPR paper, including:  <br />
 test_FSH.m: the demo test codes on UCI dataset <br />
 trainFSH.m: function to train the OEH model  <br />
 UCI.mat: original UCI dataset
