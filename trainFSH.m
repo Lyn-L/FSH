@@ -88,8 +88,9 @@ for i = 1:iter
     D = yeta * A1 + (1-yeta) * A2;
     fprintf('iteration number : %d\n',i);
     D1 = Bs * D' + 2 * lambda * (Wx' * X + Wy' * Y);
-    D2 = Bs * Bs' + 2 * lambda * eye(bit,bit);
-    B = sign(D2\D1);
+    B = sign(D1);
+    % D2 = Bs * Bs' + 2 * lambda * eye(bit,bit);
+    % B = sign(D2\D1);
     Bs = sign(B * D);
     Wx = (X * X') \ X * B';
     Wy = (Y * Y') \ Y * B';
